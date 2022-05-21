@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532816963272",
+    "project_id": "desafio-prouser",
+    "storage_bucket": "desafio-prouser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532816963272:android:ea57bdbbb3b23b773067fd",
+        "android_client_info": {
+          "package_name": "com.example.desafio_prouser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532816963272-fh8kqrolh7vsnl0odq23dqt1elv74j1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgDTJb-WBjo2evrzhehwIZpymDozHo77E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532816963272-fh8kqrolh7vsnl0odq23dqt1elv74j1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
