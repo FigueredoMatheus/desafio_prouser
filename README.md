@@ -1,16 +1,15 @@
-# desafio_prouser
+# Desafio ProUser
 
-A new Flutter project.
+## Gerência de Estado
+  - Bloc
+  - ValueNotifier
+## Plugins
+  - mobile_scanner: leitor de código de barras
+  - url_launcher: para navegar caso o item lido seja um link
+  - firebase_core: para adicionar/deletar itens no firebase
+  - cloud_firestore: para linkar o app com o firebase
+  - google_fonts: para escolher um font 
+  - intl: para fazer uma conversão da data para o formato desejado
+  - equatable: para previnir que o bloc chame estados iguais
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
