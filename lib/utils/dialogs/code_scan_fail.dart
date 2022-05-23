@@ -1,7 +1,7 @@
 import 'package:desafio_prouser/routes/routes_names.dart';
 import 'package:flutter/material.dart';
 
-codeScanFail(BuildContext context) {
+scanBarcodeFail(BuildContext context) {
   showDialog(
       context: context,
       builder: (context) {

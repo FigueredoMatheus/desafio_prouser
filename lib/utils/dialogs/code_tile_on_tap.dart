@@ -1,4 +1,5 @@
 import 'package:desafio_prouser/controllers/storage_controller.dart';
+import 'package:desafio_prouser/firebase/cloud_firestore.dart';
 import 'package:desafio_prouser/models/code_model.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -42,7 +43,9 @@ codeTileOnTap({
           actions: [
             TextButton(
               onPressed: () {
-                StorageController.deleteFile(
+                final storageController = StorageController();
+
+                storageController.deleteFile(
                   context: context,
                   codeId: codeModel.id,
                 );

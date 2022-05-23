@@ -54,10 +54,14 @@ class Body extends StatelessWidget {
                         );
                       },
                       trailing: IconButton(
-                        onPressed: () => StorageController.deleteFile(
-                          context: context,
-                          codeId: codeModel.id,
-                        ),
+                        onPressed: () {
+                          final storageController = StorageController();
+
+                          storageController.deleteFile(
+                            context: context,
+                            codeId: codeModel.id,
+                          );
+                        },
                         icon: const Icon(
                           Icons.delete,
                           color: Colors.red,

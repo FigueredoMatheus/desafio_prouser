@@ -1,8 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class CloudFirestore {
-  static Future<Map<String, dynamic>> saveFile(
-      Map<String, dynamic> codeModel) async {
+  Future<Map<String, dynamic>> saveFile(Map<String, dynamic> codeModel) async {
     Map<String, dynamic> result = {};
 
     await FirebaseFirestore.instance
@@ -27,7 +26,7 @@ class CloudFirestore {
     return result;
   }
 
-  static Future<Map<String, dynamic>> deleteFile(String codeId) async {
+  Future<Map<String, dynamic>> deleteFile(String codeId) async {
     Map<String, dynamic> result = {'success': true};
 
     await FirebaseFirestore.instance

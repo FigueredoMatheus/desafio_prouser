@@ -26,7 +26,11 @@ codeScanSuccess({
           actions: [
             TextButton(
               onPressed: () {
-                Navigator.pop(context);
+                Navigator.pushNamedAndRemoveUntil(
+                  context,
+                  RoutesNames.scannerScreen,
+                  (route) => false,
+                );
               },
               child: const Text('Ler novamente'),
             ),
